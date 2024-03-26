@@ -1,39 +1,6 @@
 const CohortData = [
   {
-    id: 1,
-    name: "John Smith",
-    track: "Frontend",
-    scores: {
-      task1: 3,
-      task2: 10,
-      task3: 7,
-    },
-    bonus: 1,
-  },
-  {
-    id: 2,
-    name: "Emma Johnson",
-    track: "Frontend",
-    scores: {
-      task1: 4,
-      task2: 9,
-      task3: 8,
-    },
-    bonus: 0,
-  },
-  {
     id: 3,
-    name: "Michael Brown",
-    track: "Frontend",
-    scores: {
-      task1: 7,
-      task2: 8,
-      task3: 6,
-    },
-    bonus: 2,
-  },
-  {
-    id: 4,
     name: "Sophia Davis",
     track: "Frontend",
     scores: {
@@ -44,18 +11,7 @@ const CohortData = [
     bonus: 1,
   },
   {
-    id: 5,
-    name: "Daniel Wilson",
-    track: "Frontend",
-    scores: {
-      task1: 10,
-      task2: 9,
-      task3: 10,
-    },
-    bonus: 2,
-  },
-  {
-    id: 6,
+    id: 4,
     name: "Isabella Taylor",
     track: "Frontend",
     scores: {
@@ -66,7 +22,7 @@ const CohortData = [
     bonus: 0,
   },
   {
-    id: 7,
+    id: 5,
     name: "Matthew Martinez",
     track: "Frontend",
     scores: {
@@ -77,18 +33,7 @@ const CohortData = [
     bonus: 1,
   },
   {
-    id: 8,
-    name: "Olivia Anderson",
-    track: "Frontend",
-    scores: {
-      task1: 7,
-      task2: 9,
-      task3: 4,
-    },
-    bonus: 3,
-  },
-  {
-    id: 9,
+    id: 6,
     name: "Ethan Thompson",
     track: "Frontend",
     scores: {
@@ -99,7 +44,7 @@ const CohortData = [
     bonus: 2,
   },
   {
-    id: 10,
+   id: 7,
     name: "Ava White",
     track: "Frontend",
     scores: {
@@ -110,7 +55,7 @@ const CohortData = [
     bonus: 1,
   },
   {
-    id: 11,
+    id: 8,
     name: "Alexander Clark",
     track: "Frontend",
     scores: {
@@ -604,61 +549,7 @@ const CohortData = [
     },
     bonus: 2,
   },
-  {
-    id: 56,
-    name: "John Hughes",
-    track: "Web3",
-    scores: {
-      task1: 8,
-      task2: 7,
-      task3: 9,
-    },
-    bonus: 0,
-  },
-  {
-    id: 57,
-    name: "Samuel Howard",
-    track: "Web3",
-    scores: {
-      task1: 9,
-      task2: 2,
-      task3: 7,
-    },
-    bonus: 1,
-  },
-  {
-    id: 58,
-    name: "Sarah Walker",
-    track: "Web3",
-    scores: {
-      task1: 3,
-      task2: 9,
-      task3: 8,
-    },
-    bonus: 3,
-  },
-  {
-    id: 59,
-    name: "Sadie Parker",
-    track: "Web3",
-    scores: {
-      task1: 4,
-      task2: 8,
-      task3: 7,
-    },
-    bonus: 2,
-  },
-  {
-    id: 60,
-    name: "AChloe Kelly",
-    track: "Web3",
-    scores: {
-      task1: 5,
-      task2: 7,
-      task3: 9,
-    },
-    bonus: 1,
-  },
+
 ];
 
 export default CohortData;

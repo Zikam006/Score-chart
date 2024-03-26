@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="bg-gray-900">
+      <div className="bg-grey-900">
         <div className="flex flex-col items-center justify-center min-h-screen py-10 lg:w-[80%] w-[90%] mx-auto">
           <div className="text-white w-full flex sm:flex-row flex-col sm:items-center sm:justify-between mt-6 gap-4">
             <h1 className="text-lg text-gray-400 font-medium">Class Scores</h1>
@@ -19,7 +19,7 @@ const Home = () => {
                 <button
                   className={`${
                     track === "Frontend" ? "ring-2 ring-inset" : ""
-                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-gray-400 w-[8rem] hover:bg-gray-800 transition duration-150 ease-out hover:ease-in font-semibold`}
+                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-red-400 w-[8rem] hover:bg-red-800 transition duration-150 ease-out hover:ease-in font-semibold`}
                   onClick={() => handleTrackSelect("Frontend")}
                 >
                   Frontend
@@ -27,7 +27,7 @@ const Home = () => {
                 <button
                   className={`${
                     track === "Backend" ? "ring-2 ring-inset" : ""
-                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-gray-400 w-[8rem] hover:bg-gray-800 transition duration-150 ease-out hover:ease-in font-semibold`}
+                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-red-400 w-[8rem] hover:bg-red-800 transition duration-150 ease-out hover:ease-in font-semibold`}
                   onClick={() => handleTrackSelect("Backend")}
                 >
                   Backend
@@ -37,7 +37,7 @@ const Home = () => {
                 <button
                   className={`${
                     track === "Product Design" ? "ring-2 ring-inset" : ""
-                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-gray-400 w-[8rem] hover:bg-gray-800 transition duration-150 ease-out hover:ease-in font-semibold`}
+                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-red-400 w-[8rem] hover:bg-red-800 transition duration-150 ease-out hover:ease-in font-semibold`}
                   onClick={() => handleTrackSelect("Product Design")}
                 >
                   Product Design
@@ -45,7 +45,7 @@ const Home = () => {
                 <button
                   className={`${
                     track === "Web3" ? "ring-2 ring-inset" : ""
-                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-gray-400 w-[8rem] hover:bg-gray-800 transition duration-150 ease-out hover:ease-in font-semibold`}
+                  } p-2 bg-black bg-opacity-20 rounded-lg text-[.8rem] text-red-400 w-[8rem] hover:bg-red-800 transition duration-150 ease-out hover:ease-in font-semibold`}
                   onClick={() => handleTrackSelect("Web3")}
                 >
                   Web3
@@ -58,8 +58,8 @@ const Home = () => {
             <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                 <div className="shadow overflow-hidden sm:rounded-lg">
-                  <table className="min-w-full text-sm text-gray-400">
-                    <thead className="bg-gray-800 text-xs uppercase font-medium">
+                  <table className="min-w-full text-sm text-red-200">
+                    <thead className="bg-red-800 text-xs uppercase font-medium">
                       <tr>
                         <th></th>
                         <th
@@ -107,7 +107,7 @@ const Home = () => {
                       </tr>
                     </thead>
 
-                    <tbody className="bg-gray-800">
+                    <tbody className="bg-red-900">
                       {Data.filter((item) =>
                         track ? item.track === track : true
                       )
